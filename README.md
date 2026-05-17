@@ -24,7 +24,7 @@ Upload any image → AI generates a caption → Summarizes it instantly
 ## Installation
 
 ```bash
-git clone https://github.com/YOURUSERNAME/image-captioning-ai.git
+git clone https://github.com/AratiSutar/image-captioning-ai.git
 cd image-captioning-ai
 python -m venv venv
 venv\Scripts\activate
