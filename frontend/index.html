@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Captioning AI</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ Image Captioning AI</h1>
+        <p>Upload an image and let AI describe it</p>
+
+        <div class="upload-box">
+            <input type="file" id="imageInput" accept="image/*" />
+            <label for="imageInput">Choose Image</label>
+        </div>
+
+        <img id="preview" src="" alt="preview" style="display:none;" />
+
+        <button id="analyzeBtn">Analyze Image</button>
+
+        <div class="result" id="result" style="display:none;">
+            <h3>Caption:</h3>
+            <p id="caption"></p>
+            <h3>Summary:</h3>
+            <p id="summary"></p>
+        </div>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
